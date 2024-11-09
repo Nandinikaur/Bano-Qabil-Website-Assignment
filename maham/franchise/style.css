@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    height: 80px;
+    width:100%;
+    position: fixed;
+    z-index: 1;
+    
+}
+.navbar{
+    display: flex;
+    font-size: 15px;
+    height: 80px;
+    width: 70%;
+
+     background-color: black; 
+   
+    align-items: center;
+    gap:30px
+}
+.navbar:hover{
+    cursor: pointer;
+}
+.logo{
+    
+    display: flex;
+    position: relative;
+    width: 30%;
+    height: 80px;
+    background-color: black;
+    
+    align-items: center;
+    
+}
+.header img{
+    
+    width:50%;
+    height: 80px;
+    
+}
+h1{
+    
+    font-size: 20px;
+    color: rgb(212, 175, 81);
+}
+.navbar li{
+   list-style-type: square;
+    color: white;
+}
+.icon1{
+    display: flex;
+    height:  80px;
+    width: 80px;
+    background-color: rgb(102, 88, 88);
+    align-items: center;
+}
+.icon2{
+    display: flex;
+    height:  80px;
+    width: 80px;
+    background-color: rgb(192, 117, 117);
+    align-items: center;
+}
+.icon1,.icon2:hover{
+    cursor: pointer;
+}
+
+svg{
+    
+    height: 20px;
+    width:90px
+}
+
+.business{
+    background-image: url("https://www.dawatpakistan.com/wp-content/uploads/2020/01/85144.jpg?id=7087");
+
+    height: 520px;
+    width: 100%;
+    background-size: 100% 400px;
+    display: flex;
+    justify-content: center;
+    
+
+    
+}
+.text h1{
+    
+    color: goldenrod;
+    
+    text-align: center;
+    
+}
+.text p{
+       
+text-align: center;
+height: 200px;
+width: 50%;
+margin: 0 auto;
+}
+ul {
+    list-style-type: disc; 
+    padding-left: 20px;
+    
+    width: 50%;
+    margin: 0 auto;
+    
+  }
+  
+ li {
+    margin-bottom: 10px; 
+     
+   }
+   .business2{
+    background-image: url("https://www.dawatpakistan.com/wp-content/uploads/2020/02/85144-F.jpg?id=7092");
+
+
+    height: 1200px;
+    width: 100%;
+    background-size: 100% 400px;
+    
+    
+
+    
+}
+h1{
+    color: goldenrod;
+}
+p{
+    height: 50px;
+    width: 25%;
+    
+}
+.business2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.business2 h1 {
+    display: flex;
+    color: goldenrod;
+    margin-bottom: 10px;
+    
+}
+
+.business2 p {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.business2 h1 + p {
+    margin-top: 0;
+}
+
+.business2 h1, .business2 p {
+    width: 100%;
+    max-width: 800px;
+}
+.background{
+    height: 100px;
+    width: 100%;
+    
+    background-color:black;
+    padding: 30px;
+    text-align: center;
+}
+.form{
+    height: 800px;
+    width: 100%;
+    background-size: 100% 800px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    padding: 20px;
+    margin: 0 ;
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: goldenrod;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(185, 125, 14);
+  }
+  
+  .form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width:100%;
+    justify-content: center;
+    background-color: rgb(26, 20, 20);
+    color:  rgb(212, 175, 81);
+    
+}
+.footer div{
+    display: flex;
+    flex-direction: column;
+   margin-top: 50px;
+   text-align: center;
+    align-items: center;
+    font-size: 18px;
+    height: 300px;
+    width: 25%;
+    
+}
+.recent{
+    border-left:1px solid  rgb(212, 175, 81);
+    border-right:1px solid  rgb(212, 175, 81);
+}
+.communication li{
+list-style-type: none;
+}
+.line{
+    display: flex;
+    height: 80px;
+    width:100%;
+    background-color:black;
+    flex-direction: row;
+}
+.policy{
+   display: flex;
+    height: 80px;
+    width:80%;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+.logos{
+    display: flex;
+    height: 80px;
+    width:50%;
+     justify-content: center;
+    align-items: center;
+    
+}
+.logos:hover{
+cursor: pointer;
+}
+
+
+
