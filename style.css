@@ -1,0 +1,446 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.header{
+    display: flex;
+    height: 80px;
+    width:100%;
+    position: fixed;
+    z-index: 1;
+    
+}
+.navbar{
+    display: flex;
+    font-size: 15px;
+    height: 80px;
+    width: 70%;
+
+     background-color: black; 
+   
+    align-items: center;
+    gap:30px
+}
+.navbar:hover{
+    cursor: pointer;
+}
+.logo{
+    
+    display: flex;
+    position: relative;
+    width: 30%;
+    height: 80px;
+    background-color: black;
+    
+    align-items: center;
+    
+}
+.header img{
+    
+    width:50%;
+    height: 80px;
+    
+}
+h1{
+    
+    font-size: 20px;
+    color: rgb(212, 175, 81);
+}
+.navbar li{
+   list-style-type: square;
+    color: white;
+}
+.icon1{
+    display: flex;
+    height:  80px;
+    width: 80px;
+    background-color: rgb(102, 88, 88);
+    align-items: center;
+}
+.icon2{
+    display: flex;
+    height:  80px;
+    width: 80px;
+    background-color: rgb(192, 117, 117);
+    align-items: center;
+}
+.icon1,.icon2:hover{
+    cursor: pointer;
+}
+
+svg{
+    
+    height: 20px;
+    width:90px
+}
+.content1{
+    display: flex;
+    height: 400px;
+    width:100%;
+    position:relative
+}
+.content1 img{
+    height: 400px;
+    width:100%
+    
+}
+.content2{
+    
+    display: flex;
+    height: 2500px;
+    width:100%;
+    position:relative;
+    background-image: url("/texture.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 2500px;
+    flex-direction: column;
+    
+   
+}
+.heading{
+    
+    width:100%;
+    height: 150px;
+    
+    
+}
+
+.heading p{
+    text-align: center;
+    color:rgb(110, 78, 29);
+    font-size: 20px;
+}
+h2{
+    display: flex;
+    font-size: 50px;
+    color:rgb(110, 78, 29);
+    justify-content: center;
+    margin-top: 20px;
+    
+
+}
+
+.services{
+    display: flex;
+    height: 200px;
+    width:100%;
+   
+    justify-content: center;
+    gap: 30px;
+    
+}
+.services div{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width:25%;
+    color:rgb(110, 78, 29);
+    font-size: 20px;
+}
+.item1{
+    display: flex;
+    height: 250px;
+    width: 100%;
+   gap:50px;
+   justify-content: center;
+   margin-top: 15px;
+   
+}
+.item1 div{
+    
+    height: 250px;
+    width: 25%;
+   
+    
+    
+}
+.img1{
+background-image: url("/img1.jpeg");
+background-size: 100% 250px;
+background-repeat: no-repeat;
+}
+.img2{
+background-image: url("/img2.jpeg");
+background-size: 100% 250px;
+background-repeat: no-repeat;
+}
+.img3{
+background-image: url("/img3.webp");
+background-size: 100% 250px;
+background-repeat: no-repeat;
+}
+.img4{
+    background-image: url("/img4.jpeg");
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+}
+.img5{
+    background-image: url("/img5.jpeg");
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+}
+.img6{
+    background-image: url("/img6.jpeg");
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+}
+.img7{
+    background-image: url("/img7.webp");
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+}
+.img8{
+    background-image: url("/img8.jpeg");
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+}
+.img9{
+    background-image: url("/img9.jpeg");
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+}
+.img10{
+    background-image: url("/img10.jpeg");
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+}
+.img11{
+    background-image: url("/img11.jpeg");
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+}
+.img12{
+    background-image: url("/img12.webp");
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:rgb(110, 78, 29);
+}
+.contact{
+    display:flex;
+    height: 100px;
+    width: 100%;
+    background-color:  rgb(192, 117, 117);
+    justify-content: center;
+
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width:70%;
+    font-size: 30px;
+}
+.contactus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    border:1px solid black;
+    height: 50px;
+    width:15%
+}
+.contactus:hover{
+    color:grey;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width:100%;
+    justify-content: center;
+    background-color: rgb(26, 20, 20);
+    color:  rgb(212, 175, 81);
+    
+}
+.footer div{
+    display: flex;
+    flex-direction: column;
+   margin-top: 50px;
+   text-align: center;
+    align-items: center;
+    font-size: 18px;
+    height: 300px;
+    width: 25%;
+    
+}
+.recent{
+    border-left:1px solid  rgb(212, 175, 81);
+    border-right:1px solid  rgb(212, 175, 81);
+}
+.communication li{
+list-style-type: none;
+}
+.line{
+    display: flex;
+    height: 80px;
+    width:100%;
+    background-color:black;
+    flex-direction: row;
+}
+.policy{
+   display: flex;
+    height: 80px;
+    width:80%;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+.logos{
+    display: flex;
+    height: 80px;
+    width:50%;
+     justify-content: center;
+    align-items: center;
+    
+}
+.logos:hover{
+cursor: pointer;
+}
+.certification{
+    height: 500px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading2{
+    height: 500px;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(110, 78, 29);
+    border-bottom: 1px solid rgb(110, 78, 29);
+}
+.key{
+    height:400px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:10px;
+
+}
+.key1{
+    border:1px solid black;
+    display: flex;
+    height: 300px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   font-size: 20px;
+   flex-direction: column;
+   background-image: url("/key1.webp");
+   background-size:100% 300px;
+   background-repeat: no-repeat;
+
+}
+
+.key2{
+    border:1px solid black;
+    display: flex;
+    height: 400px;
+    width: 30%;
+    background-image: url("/key2.webp");
+    background-size:100% 400px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   font-size: 20px;
+   flex-direction: column;
+   color:white;
+
+
+}
+.key3{
+    border:1px solid black;
+    display: flex;
+    height: 300px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   font-size: 20px;
+   flex-direction: column;
+   background-image: url("/key3.webp");
+   background-size:100% 300px;
+   background-repeat: no-repeat;
+   
+}
+.heading3{
+    height: 100px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(110, 78, 29);
+
+}
+.form{
+    
+    display: flex;
+    height: 700px;
+    width:100%;
+    justify-content: center;
+    gap:50px
+}
+.form div{
+    height: 700px;
+    width: 40%;
+   
+}
+input{
+    width: 100%;
+    padding:10px
+}
+button{
+    width: 30%;
+    height:50px;
+    background-color: rgb(110, 78, 29);
+}
+input:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+    color:grey
+}
+.certificate{
+    background-image: url("/certificate.webp");
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+   
+}
+.certificate div{
+   
+    height: 240px;
+    width:100%;
+    display: flex;
+   text-align: center;
+   flex-direction: column;
+   color: black;
+   font-size: 20px;
+
+}
+
+
