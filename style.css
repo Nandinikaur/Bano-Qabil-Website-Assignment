@@ -74,108 +74,47 @@ svg{
     height: 20px;
     width:90px
 }
-
-.business{
+.container{
     background-image: url("https://www.dawatpakistan.com/wp-content/uploads/2020/01/85144.jpg?id=7087");
 
     height: 520px;
     width: 100%;
     background-size: 100% 400px;
+    
+   
+}
+.text h1{
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+    font-size: 4em; 
+    font-weight: bold;
+}
+.text h2{
+    color: goldenrod;
+    text-align: center;
+}
+.banner h1{
+    color: black;
+    font-size: 2em;
     display: flex;
     justify-content: center;
     
-
-    
 }
-.text h1{
-    
-    color: goldenrod;
-    
+.banner p{
     text-align: center;
-    
-}
-.text p{
-       
-text-align: center;
-height: 200px;
+
 width: 50%;
 margin: 0 auto;
 }
-ul {
-    list-style-type: disc; 
-    padding-left: 20px;
-    
-    width: 50%;
-    margin: 0 auto;
-    
-  }
-  
- li {
-    margin-bottom: 10px; 
-     
-   }
-   .business2{
-    background-image: url("https://www.dawatpakistan.com/wp-content/uploads/2020/02/85144-F.jpg?id=7092");
-
-
-    height: 1200px;
-    width: 100%;
-    background-size: 100% 400px;
-    
-    
-
-    
-}
-h1{
+.banner h2{
     color: goldenrod;
-}
-p{
-    height: 50px;
-    width: 25%;
-    
-}
-.business2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
-    text-align: center;
-    padding: 20px;
-    
-}
-
-.business2 h1 {
-    display: flex;
-    color: goldenrod;
-    margin-bottom: 10px;
-    
-}
-
-.business2 p {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.business2 h1 + p {
-    margin-top: 0;
-}
-
-.business2 h1, .business2 p {
-    width: 100%;
-    max-width: 800px;
-}
-.background{
-    height: 100px;
-    width: 100%;
-    
-    background-color:black;
-    padding: 30px;
-    text-align: center;
 }
 .form{
-    height: 800px;
+    height: 1100px;
     width: 100%;
     background-size: 100% 800px;
+    background-image: url("https://www.dawatpakistan.com/wp-content/uploads/2020/01/85144.jpg?id=7087");
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -215,7 +154,23 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
-  .footer{
+  .background{
+    height: 300px;
+    width: 100%;
+    
+    background-color:black;
+    padding: 30px;
+    text-align: center;
+    
+}
+.background h1{
+    color: goldenrod;
+}
+.background p{
+    color: goldenrod;
+}
+
+.footer{
     display: flex;
     flex-direction: row;
     height: 400px;
@@ -269,6 +224,3 @@ list-style-type: none;
 .logos:hover{
 cursor: pointer;
 }
-
-
-
