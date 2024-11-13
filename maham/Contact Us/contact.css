@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    height: 80px;
+    width:100%;
+    position: fixed;
+    z-index: 1;
+    
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    display: flex;
+    font-size: 20px;
+    height: 80px;
+    width: 70%;
+
+     background-color: black; 
+   
+    align-items: center;
+    gap:30px
+}
+.navbar:hover{
+    cursor: pointer;
+}
+.logo{
+    
+    display: flex;
+    position: relative;
+    width: 30%;
+    height: 80px;
+    background-color: black;
+    
+    align-items: center;
+    
+}
+.header img{
+    
+    width:50%;
+    height: 80px;
+    
+}
+h1{
+    
+    font-size: 20px;
+    color: rgb(212, 175, 81);
+}
+.navbar li{
+   list-style-type: square;
+    color: white;
+}
+.icon1{
+    display: flex;
+    height:  80px;
+    width: 80px;
+    background-color: rgb(102, 88, 88);
+    align-items: center;
+}
+.icon2{
+    display: flex;
+    height:  80px;
+    width: 80px;
+    background-color: rgb(192, 117, 117);
+    align-items: center;
+}
+.icon1,.icon2:hover{
+    cursor: pointer;
+}
+
+svg{
+    
+    height: 20px;
+    width:90px
+}
+.container{
+    background-image: url("https://www.dawatpakistan.com/wp-content/uploads/2020/01/85144.jpg?id=7087");
+
+    height: 520px;
+    width: 100%;
+    background-size: 100% 400px;
+    
+   
+}
+.text h1{
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+    font-size: 4em; 
+    font-weight: bold;
+}
+.text h2{
+    color: goldenrod;
+    text-align: center;
+}
+.banner h1{
+    color: black;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    
+}
+.banner p{
+    text-align: center;
+
+width: 50%;
+margin: 0 auto;
+}
+.banner h2{
+    color: goldenrod;
+}
+.form{
+    height: 1100px;
+    width: 100%;
+    background-size: 100% 800px;
+    background-image: url("https://www.dawatpakistan.com/wp-content/uploads/2020/01/85144.jpg?id=7087");
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    padding: 20px;
+    margin: 0 ;
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: goldenrod;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(185, 125, 14);
+  }
+  
+  .form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .background{
+    height: 300px;
+    width: 100%;
+    
+    background-color:black;
+    padding: 30px;
+    text-align: center;
+    
+}
+.background h1{
+    color: goldenrod;
+}
+.background p{
+    color: goldenrod;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width:100%;
+    justify-content: center;
+    background-color: rgb(26, 20, 20);
+    color:  rgb(212, 175, 81);
+    
+}
+.footer div{
+    display: flex;
+    flex-direction: column;
+   margin-top: 50px;
+   text-align: center;
+    align-items: center;
+    font-size: 18px;
+    height: 300px;
+    width: 25%;
+    
+}
+.recent{
+    border-left:1px solid  rgb(212, 175, 81);
+    border-right:1px solid  rgb(212, 175, 81);
+}
+.communication li{
+list-style-type: none;
+}
+.line{
+    display: flex;
+    height: 80px;
+    width:100%;
+    background-color:black;
+    flex-direction: row;
+}
+.policy{
+   display: flex;
+    height: 80px;
+    width:80%;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+.logos{
+    display: flex;
+    height: 80px;
+    width:50%;
+     justify-content: center;
+    align-items: center;
+    
+}
+.logos:hover{
+cursor: pointer;
+}
